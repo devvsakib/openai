@@ -9,7 +9,7 @@ const Hero = () => {
                 <span className="eye"></span>
                 <img className="w-[45%] m-auto" src="assets/vision.png" alt="vision.png" />
 
-                    <Link className='text-white inline-block mt-[5rem] text-sm font-bold uppercase hover:cursor-pointer p-2 py-3 sm:py-4 px-5 sm:ml-4 globButton2'>
+                    <Link to='generate' className='text-white inline-block mt-[5rem] text-sm font-bold uppercase hover:cursor-pointer p-2 py-3 sm:py-4 px-5 sm:ml-4 globButton2'>
                         Generate
                     </Link>
             </div>

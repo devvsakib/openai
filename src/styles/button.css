@@ -7,13 +7,84 @@
 
 .globButton2 {
     box-sizing: border-box;
+
     background: #06121D;
     border: 1px solid #195a79;
     border-radius: 14px;
+    padding: 10px 20px;
     box-shadow: 0px 4px 4px #46CDF8;
 }
 
 .globButton:hover {
     box-shadow: 0px 4px 4px #46CDF8;
     transition: .3s ease-in-out;
+}
+
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    padding: 5px 20px;
+    padding-right: 40px;
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.border-gradient-inp {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    padding: 5px 20px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+select {
+    appearance: none;
+    background: url('/public/assets/images/downarrow.png') no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 10px !important;
+    background-size: 13px;
+}
+
+/* select option{
+    background: linear-gradient(to right, rgba(43, 116, 202, 0.78) 23.01%, rgba(70, 207, 248, 0.736) 100%) !important;
+} */
+textarea {
+    margin: 40px;
+    background: rgba(43, 116, 202, 0.78);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(43, 116, 202, 0.78);
+    resize: none;
+}
+
+textarea:focus {
+    outline: hidden;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(43, 116, 202, 0.78);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(43, 116, 202, 0.78);
+}
+
+option:checked {
+    color: red;
+    background: rgba(70, 207, 248, 1)
+}
+
+.border-gradient {
+    border-image-source: linear-gradient(to right, rgba(70, 207, 248, 0.736) 23.01%, rgba(43, 116, 202, 0.78) 100%);
+}
+
+.border-gradient-input {
+    border-image-source: linear-gradient(to right, rgba(70, 207, 248, 0.736) 23.01%, rgba(43, 116, 202, 0.78) 100%);
+}
+
+button{
+    width: auto !important;
+    display: block !important;
 }

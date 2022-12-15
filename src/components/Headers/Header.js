@@ -11,7 +11,7 @@ const Header = () => {
 
 
     return (
-        <header className='flex justify-between items-center mt-5 px-[30px] sm:px-[80px]'>
+        <header className='flex justify-between items-center px-[30px] sm:px-[80px]'>
             <div className="logo font-extrabold text-2xl text-white">
                 <span>AI IMAGE</span>
             </div>
