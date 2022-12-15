@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+header {
+    margin-top: 45px;
+}
+
 @media (min-width: 820px) {
     .menuicons {
         display: none !important;
@@ -35,7 +39,10 @@
     }
 
     .menu.active {
+        padding-left: 20px !important;
         right: 0;
+        width: 200px;
         transition: 350ms;
+        box-shadow: 0 0 30px 0px #00ffff63;
     }
 }

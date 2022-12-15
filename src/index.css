@@ -3,9 +3,10 @@
 @tailwind utilities;
 body{
     background: #06121D;
+    color: #fff;
     font-family: 'Inter', sans-serif;
+    overflow: hidden;
 }
 img{
     max-width: 100%;
-    
 }
