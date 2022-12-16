@@ -57,7 +57,7 @@ textarea {
     background: rgba(43, 116, 202, 0.78);
     color: #fff;
     text-shadow: 0 1px 0 rgba(43, 116, 202, 0.78);
-    resize: none;
+    outline: 0 !important;
 }
 
 textarea:focus {

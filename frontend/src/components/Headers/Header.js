@@ -22,8 +22,8 @@ const Header = () => {
                     <li>
                         <CloseIcon className='text-white cursor-pointer menuicons text-[35px]' onClick={() => setmenuOpen(!menuOpen)} />
                     </li>
-                    {menu.map(e => (
-                        <Link to={`/${e.link}`} className='text-white text-sm font-bold uppercase inline hover:cursor-pointer p-2 px-5 ml-4 globButton
+                    {menu.map((e, i) => (
+                        <Link to={`/${e.link}`} key={i} className='text-white text-sm font-bold uppercase inline hover:cursor-pointer p-2 px-5 ml-4 globButton
                             '>{e.name}</Link>
                     ))}
                 </ul>
